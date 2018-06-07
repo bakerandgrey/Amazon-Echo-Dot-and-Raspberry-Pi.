@@ -45,14 +45,21 @@ The Raspberry Pi is a series of small single-board computers, developed by Raspb
 17  Type the following two commands in Pi command prompt to update it. "sudo apt-get update"    and "sudo apt-get upgrade".  
 
 ## Steps to interface Amazon echo dot to Raspberry Pi  
+
 1.	Download this github project as zip file with following command "wget https://github.com/nassiramalik/IOT-Pi3-Alexa-Automation/archive/master.zip".  
+
 2.	Unzip downloaded zip file with "unzip master.zip" command and type "cd IOT-Pi3-Alexa-Automation-master" command after unzip completes.  
+
 3.	Enter "sudo python3 RPi_name_port_gpio.py" command to run Pi IOT program.  
+
 4.	Give voice command to Alex to discover devices "Alexa discover devices" it will search your network and discover your Raspberry Pi 3 as an IOT device.  
+
 5.	 Connect GPIO pins to devices (here LED’s).  
- 
- 
+
+![img-20180523-wa0001](https://user-images.githubusercontent.com/39903083/41077022-152336a6-6a32-11e8-8ab5-cc0ae1887508.jpg).  
+
 6.	Give a voice command to Alexa "Turn on Kitchen" and led will turn on.  
+
 7.	Give a voice command to Alexa "Turn off Kitchen" and led will turn off.  
  
 8.	Similarly we can choose to command other devices listed in the code.  
