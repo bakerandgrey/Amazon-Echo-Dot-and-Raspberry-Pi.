@@ -10,6 +10,7 @@ The Raspberry Pi is a series of small single-board computers, developed by Raspb
 2	Download "win32diskimager-1.0.0-install.exe" program from following URL Ref:https://sourceforge.net/projects/win32diskimager/files/latest/download.  
 3	Install "win32diskimager-1.0.0-install.exe".  
 4	Connect micro-sd card to computer. Write raspbian-stretch image file onto micro-sd card using “Win32DiskImager”.  
+![writing](https://user-images.githubusercontent.com/39903083/41076797-f7d8c800-6a30-11e8-96b1-37e3a949abf1.jpg).  
 5	Once image writing is completed, create "ssh" (ssh file is empty) files to the root of the sd card.  
 6	Insert the sd card into Raspberry Pi 3 and boot it.  
 7	Connect Ethernet cable to the Raspberry Pi3.  
